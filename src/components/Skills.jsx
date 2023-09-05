@@ -4,35 +4,35 @@ const skills = [
     name: "React.js Proficiency",
     description:
       "As a React developer, I have a strong grasp of React.js, a popular JavaScript library for building user interfaces. I can create interactive and dynamic web applications using React's component-based architecture.",
-    image: "src/assets/react-icon.png",
+    image: "/atom.png",
   },
   {
     id: 2,
     name: "Figma Design",
     description:
       "I am proficient in Figma, a collaborative design tool. I can use Figma to create and collaborate on user interface and user experience (UI/UX) designs, making sure the designs are user-friendly and visually appealing.",
-    image: "src/assets/figma-icon.png",
+    image: "/figma.png",
   },
   {
     id: 3,
-    name: "HTML, CSS, and JavaScript",
+    name: "JavaScript",
     description:
-      "I have a solid foundation in web development technologies, including HTML, CSS, and JavaScript. I can create and style web pages using HTML and CSS, and I can enhance user interactivity with JavaScript.",
-    image: "src/assets/web-development-icon.png",
+    "I am proficient in JavaScript and can develop interactive and dynamic features for web applications, enhancing user interactivity and functionality.",
+    image: "/js.png",
   },
   {
     id: 4,
-    name: "Effective Communication",
+    name: "HTML & CSS",
     description:
-      "I possess strong communication skills, allowing me to collaborate effectively with team members, clients, and stakeholders. Clear and concise communication is key to project success.",
-    image: "src/assets/communication-icon.png",
+      "I am skilled in CSS and HTML and can style web pages, making them visually attractive and responsive across various devices and screen sizes ensuring proper semantics and accessibility.",
+    image: "/css-3.png",
   },
 ];
 
 const Skills = () => {
 
   return (
-    <div className="lg:mx-12 mx-4 py-20" id="skills">
+    <div className="lg:mx-12 mx-4 py-10" id="skills">
       <div className="mb-20">
         <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">My Expertise</h2>
       </div>
