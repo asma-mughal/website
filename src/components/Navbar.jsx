@@ -35,7 +35,7 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between">
           <div className="text-white font-bold text-lg cursor-pointer">
-            <img src={logo} alt="" className="h-10" />
+           
           </div>
           
           {/* for larger device */}
@@ -77,7 +77,7 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="mt-4 bg-body p-4 rounded-lg text-white">
+          <div className="mt-4 bg-body p-4 rounded-lg">
             <Link activeClass="active" smooth={true} spy={true} offset={-100} to="home" className="block hover:text-gray-400 py-2">
               Home
             </Link>

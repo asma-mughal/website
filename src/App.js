@@ -12,12 +12,11 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div className="">
+    <div className="font-poppins ">
 <Navbar />
 <Home />
 <Skills />
 <Portfolio />
-<Testimonial />
 <Contact />
 <Footer />
     </div>

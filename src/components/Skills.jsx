@@ -1,42 +1,39 @@
 const skills = [
-    {
-      id: 1,
-      name: "Strategy & Direction",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-      image: "src/assets/skills-1.png",
-    },
-    {
-      id: 2,
-      name: "Branding & Logo",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-      image: "src/assets/skills-2.png",
-    },
-    {
-      id: 3,
-      name: "UI & UX Design",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-      image: "src/assets/skills-3.png",
-    },
-    {
-      id: 4,
-      name: "Webflow Development",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-      image: "/src/assets/skills-4.png",
-    },
-  ];
+  {
+    id: 1,
+    name: "React.js Proficiency",
+    description:
+      "As a React developer, I have a strong grasp of React.js, a popular JavaScript library for building user interfaces. I can create interactive and dynamic web applications using React's component-based architecture.",
+    image: "src/assets/react-icon.png",
+  },
+  {
+    id: 2,
+    name: "Figma Design",
+    description:
+      "I am proficient in Figma, a collaborative design tool. I can use Figma to create and collaborate on user interface and user experience (UI/UX) designs, making sure the designs are user-friendly and visually appealing.",
+    image: "src/assets/figma-icon.png",
+  },
+  {
+    id: 3,
+    name: "HTML, CSS, and JavaScript",
+    description:
+      "I have a solid foundation in web development technologies, including HTML, CSS, and JavaScript. I can create and style web pages using HTML and CSS, and I can enhance user interactivity with JavaScript.",
+    image: "src/assets/web-development-icon.png",
+  },
+  {
+    id: 4,
+    name: "Effective Communication",
+    description:
+      "I possess strong communication skills, allowing me to collaborate effectively with team members, clients, and stakeholders. Clear and concise communication is key to project success.",
+    image: "src/assets/communication-icon.png",
+  },
+];
 
 const Skills = () => {
 
   return (
-    <div className="lg:mx-12 mx-4 py-32" id="skills">
+    <div className="lg:mx-12 mx-4 py-20" id="skills">
       <div className="mb-20">
-        <p className="text-xl text-headingcolor font-semibold mb-5">
-          My Skills
-        </p>
         <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">My Expertise</h2>
       </div>
 
